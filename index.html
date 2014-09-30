@@ -39,7 +39,7 @@
 		    	<div class="col-xs-6">
 		    		<h1>96.1 FM</h1>
 		    		<p class="lead">Home of the greatest hip-hop on radio.  Sign up for our newsletter to get the latest from your favorite station</p>
-		    		<form class="form">
+		    		<form class="form" novalidate>
 		    			<div class="form-group">
 		    				<label for="cta-email">Your email below</label>
 		    				<div class="input-group">
@@ -64,7 +64,7 @@
 				<div class="col-xs-12">
 					<div class="panel panel-default">
 						<div class="panel-heading">
-							<h3 class="panel-title">Featured DJ - Zach Lincoln</h3>
+							<h2 class="panel-title">Featured DJ - Zach Lincoln</h2>
 						</div>
 						<div class="panel-body">
 							<div class="row">
@@ -87,15 +87,24 @@
 				<div class="col-xs-12">
 					<div class="panel panel-default">
 						<div class="panel-heading">
-							<h3 class="panel-title">Upcoming Contest - Trip to Maui!</h3>
+							<h2 class="panel-title">Upcoming Contest - Trip to Maui!</h2>
 						</div>
 						<div class="panel-body">
 							<div class="row">
 								<div class="col-xs-6">
-									<img class="img-responsive" src="http://placehold.it/800x400">
+									<div class="fitvids-target">
+										<video width="800" height="532">
+											<source src="media/rmo-marketing.mp4">
+										</video>
+									</div>
 								</div>
 								<div class="col-xs-6">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+									<p>MPEG-4/H.264 is a widely used format for recording, compression, and distribution - including web, blue-ray, and digital purchases.  The project is backed by the Moving Picture Experts Group (MPEG), a long established group that "<a href="http://mpeg.chiariglione.org/" class="text-muted" target="_blank">In its 25 years of activity MPEG has developed an impressive portfolio of standards and technologies that have created an industry worth several hundreds billion USD.</a>"  MP4 enjoys the widest browser support, with only Opera lacking.</p>
+									<h3>Download and Share</h3>
+									<ul class="nav nav-stacked">
+										<li><a href="media/something.mp4"><i class="glyphicon glyphicon-download"></i> Download MP4</a></li>
+										<li><a href="media/something.mp4"><i class="glyphicon glyphicon-download"></i> Download OGG</a></li>
+									</ul>
 								</div>
 							</div>
 						</div>
@@ -109,7 +118,7 @@
 		  <div class="container">
 		    <div class="row">
 		    	<div class="col-xs-6">
-		    		<h2>Sponsored by Full Sail University</h2>
+		    		<h3>Sponsored by Full Sail University</h3>
 		    		<p class="lead">Full Sail University offers campus and online degree programs that are designed for the world of entertainment and media. Offering associate's, bachelor's, and master's degrees, Full Sail's approach is centered on real-world industry experience.</p>
 		    	</div>
 		    </div>
@@ -138,5 +147,9 @@
 		  </div><!-- /.container-fluid -->
 		</nav>
 	</footer>
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="bower_components/fitvids/jquery.fitvids.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
