@@ -1,12 +1,49 @@
+//app critical
 @import '../bower_components/bootstrap/less/bootstrap';
 @icon-font-path: '../bower_components/bootstrap/fonts/';
 @import 'glyphicon-social';
+.social{ padding-left: 0px; }
+
+//colors
+@white: #fff;
+
+html{
+	background-color: #f3f3f3;
+	background-image: url(http://www.transparenttextures.com/patterns/pinstriped-suit.png);
+	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	background-color: #f3f3f3;
+background-image: url(http://www.transparenttextures.com/patterns/skulls.png);
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+// background-image: url(../images/graffiti-bg.png);
+	body{
+		background: transparent;
+	}
+}
 
 header{
 	nav.navbar{
 		.navbar-brand{
 			height: auto;
-			max-width: 200px;
+			max-width: 150px;
 		}
+	}
+}
+
+#banner{
+	background-color: #4d0080;
+	background-image: url(http://www.transparenttextures.com/patterns/black-orchid.png);
+	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	background-color: #540691;
+background-image: url(http://www.transparenttextures.com/patterns/fake-luxury.png);
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+background-color: #540691;
+background-image: url(http://www.transparenttextures.com/patterns/knitted-sweater.png);
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+background-color: #540691;
+background-image: url(http://www.transparenttextures.com/patterns/otis-redding.png);
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	.jumbotron{
+		background: transparent;
+		color: @white;
 	}
 }
