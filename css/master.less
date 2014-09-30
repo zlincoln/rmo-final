@@ -4,6 +4,8 @@
 @import 'glyphicon-social';
 .social{ padding-left: 0px; }
 
+@import '../js/mediaelement/build/mediaelementplayer.min.css';
+
 //colors
 @white: #fff;
 
@@ -47,6 +49,20 @@ background-image: url(http://www.transparenttextures.com/patterns/otis-redding.p
 	.jumbotron{
 		background: transparent;
 		color: @white;
+	}
+}
+
+#upcoming-contest{
+	.panel-body{
+		padding-left: 760px;
+		min-height: 562px;
+		position: relative;
+		.mejs-container{
+			position: absolute;
+			left: 15px;
+			top: 15px;
+			background: black;
+		}
 	}
 }
 
