@@ -9,14 +9,26 @@
 //colors
 @white: #fff;
 
+.switcheroo{
+	position: relative;
+	img{
+		.show-hover{
+			display: none;
+		}
+	}
+	&:hover{
+		img{
+			display: none;
+			.show-hover{
+				display: block;
+			}
+		}
+	}
+}
+
 html{
 	background-color: #f3f3f3;
-	background-image: url(http://www.transparenttextures.com/patterns/pinstriped-suit.png);
-	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-	background-color: #f3f3f3;
-background-image: url(http://www.transparenttextures.com/patterns/skulls.png);
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-// background-image: url(../images/graffiti-bg.png);
+	background-image: url(http://www.transparenttextures.com/patterns/skulls.png);
 	body{
 		background: transparent;
 	}
@@ -33,19 +45,10 @@ header{
 }
 
 #banner{
-	background-color: #4d0080;
-	background-image: url(http://www.transparenttextures.com/patterns/black-orchid.png);
-	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 	background-color: #540691;
-background-image: url(http://www.transparenttextures.com/patterns/fake-luxury.png);
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-background-color: #540691;
-background-image: url(http://www.transparenttextures.com/patterns/knitted-sweater.png);
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-background-color: #540691;
-background-image: url(http://www.transparenttextures.com/patterns/otis-redding.png);
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-.box-shadow(inset 0 0 12px fade(#000, 15%));
+	background-image: url(http://www.transparenttextures.com/patterns/otis-redding.png);
+	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	.box-shadow(inset 0 0 12px fade(#000, 15%));
 	.jumbotron{
 		background: transparent;
 		color: @white;
